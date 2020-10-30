@@ -1,0 +1,32 @@
+ .form-control{
+    width:300;
+
+}
+body{
+    background:url("background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.copy_right_footer {
+    position: fixed;
+    color: #6c757d;
+    bottom: 0;
+    width: 100%;
+    background-color: #f5f5f5;
+    line-height: 2;
+    margin-left:-25px;
+    text-align: center;
+}
+.w3-card-4
+{
+    color:white;
+    background-color: aqua;
+    
+}
+h1{
+    color: white !important;
+}
+
+
