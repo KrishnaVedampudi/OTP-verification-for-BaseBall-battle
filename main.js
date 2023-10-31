@@ -1,12 +1,13 @@
-const firebaseConfig = {
-        apiKey: "AIzaSyD-BBshNUbgt-c1qiSyVqcMLGhf0iz864g",
-        authDomain: "baseball-37e0d.firebaseapp.com",
-        projectId: "baseball-37e0d",
-        storageBucket: "baseball-37e0d.appspot.com",
-        messagingSenderId: "422995163027",
-        appId: "1:422995163027:web:4b49ffa090ca952ad55a66",
-        measurementId: "G-792QSK4ZY7"
-};
+var firebaseConfig = {
+    apiKey: "AIzaSyC6FY9OApwC52CHr7BCUP9KWcOGv1o88Cc",
+    authDomain: "phone-book-ffd11.firebaseapp.com",
+    databaseURL: "https://phone-book-ffd11.firebaseio.com",
+    projectId: "phone-book-ffd11",
+    storageBucket: "phone-book-ffd11.appspot.com",
+    messagingSenderId: "922206425112",
+    appId: "1:922206425112:web:78a5b11da15432ac3e736d",
+    measurementId: "G-2J1YLX2BV2"
+  };
   firebase.initializeApp(firebaseConfig);
   
   firebase.auth().settings.appVerificationDisabledForTesting = false;
